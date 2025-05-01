@@ -11,7 +11,7 @@ function downloadBase64Image(base64Data, index) {
 }
 
 function downloadTenImages() {
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 1000; i++) {
     downloadBase64Image(base64ImageData, i);
   }
 }
