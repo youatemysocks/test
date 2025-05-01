@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>rizz</title>
+</head>
+<body>
+  <button onclick="downloadImage5Times()">free robux</button>
+
+  <script>
+    const base64Image = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAIElEQVQoU2NkYGBgYGBg+A8EDAwMDAwMDAwGhgYGBoYGBgAAgwEBD2hEdgAAAAASUVORK5CYII=";
+
+    function downloadImage(index) {
+      const a = document.createElement('a');
+      a.href = base64Image;
+      a.download = `image_${index + 1}.png`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    }
+
+    function downloadImage5Times() {
+      for (let i = 0; i < 5; i++) {
+      }
+    }
+  </script>
+</body>
+</html>
+
